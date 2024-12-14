@@ -32,3 +32,10 @@ class TodoItem {
         isCompleted = completed;
     }
 }
+
+// Abstract Class / Interface: Menggunakan interface untuk tindakan TodoItem
+interface TodoActions {
+    void addItem(String description);
+    void removeItem(int index);
+    void toggleItem(int index);
+}
