@@ -11,7 +11,7 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import java.util.ArrayList;
 
-// Encapsulation: Semua atribut private dengan getter dan setter
+// Encapsulation: Semua atribut private dengan getter dan setter pada program
 class TodoItem {
     private String description;
     private boolean isCompleted;
